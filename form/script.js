@@ -24,13 +24,13 @@
             for(const entry in entries){
                 if(activates[entry].fname.includes(username) && activates[entry].password.includes(password)){
                     store.push(1);
-                    location.href = "../slide.html";
+                    location.href = "/slide.html";
                     alert('login successful')
                     break;
                 }
             }
             if(store != 1){
-                location.href = './facebook_signup/sign_up.html';
+                location.href = 'sign_up.html';
                 alert('user not register')
             }
         }
