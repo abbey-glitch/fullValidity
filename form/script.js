@@ -24,7 +24,7 @@
             for(const entry in entries){
                 if(activates[entry].fname.includes(username) && activates[entry].password.includes(password)){
                     store.push(1);
-                    location.href = "/slide.html";
+                    location.href = "slide.html";
                     alert('login successful')
                     break;
                 }
