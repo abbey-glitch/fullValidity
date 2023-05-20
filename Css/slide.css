@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+#wrapper{
+    height: 100vh;
+    background:linear-gradient(rgba(230, 80, 10, 0.8), rgba(230, 80, 10, 0.4)), url(../images/book.jpg);
+    
+}
+#container{
+    position: relative;
+    background-image: url('../covid19.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:100vh;
+}
+.header1{
+    position: absolute;
+    left:35%;
+    right:36%;
+    font-size: xx-large;
+    font-style: italic;
+    display: inline;
+    border: 2px solid orange;
+    background: brown;
+    mix-blend-mode: hard-light;
+    top:90%;
+}
+/*switch aside*/
+.switchContainer{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    text-align: center;
+    height: 100vh;
+    position: absolute;
+    left:75%;
+    right: 0;
+}
+
+.headSwitch{
+    padding-top: 1em;
+    mix-blend-mode: hard-light;
+}
+.switchWrap{
+    border:.2em ridge green;
+    height:6.5%;
+    width: 200px;
+    left:30%;
+    right:20%;
+    padding: 1em;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+.switchbtn{
+    text-decoration: none;
+    border: .2em solid red;
+    padding: .3em;
+    background-color: azure;
+    position: absolute;
+    /*left:auto;*/
+    width:60%;
+    right:40%;
+    top:0;
+    transition: all .3s linear;
+}
+.switchbtn:hover{
+    transform: scale(1.1);
+    color:blue;
+}
+.switchOff{
+    background-color: red;
+}
+.section{
+    margin: 2em auto 1em auto;
+}
+#item{
+    border:.2em double palevioletred;
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s linear;
+}
+
+#item:hover{
+    transform: scale(1.1);
+}
+#item:last-child{
+    margin-top: 2em;
+}

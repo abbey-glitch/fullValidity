@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+form{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: green;
+    mix-blend-mode: hard-light;
+    color: blue; */
+}
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+#formWrap{
+    display:grid;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.parText, legend, p{
+    text-align: center;
+}
+.label{
+    font-size: xx-large;
+}
+#bg-video{
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+    top:0;
+}
+.username, .password, .button{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+input[type ='text'], input[type ='password']{
+    height: 3rem;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:50%;
+    outline-color: red;
+}
+p a{
+    text-decoration: none;
+    color:blue;
+}

@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin:0;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(5, 9, 5, 0.5)); 
+    width:100%;
+    height: 100%;
+}
+#wrapper{
+    border:.2em dotted plum;
+}
+.formContainer{
+    text-align: center;
+    background-color: azure;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.formHead{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formHead h3{
+    margin-bottom: 0;  
+}
+legend{
+    margin:2em auto 2em auto;
+}
+input[type='name']{
+    padding: 2em;
+}
