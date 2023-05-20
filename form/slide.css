@@ -9,7 +9,7 @@
 }
 #container{
     position: relative;
-    background-image: url('../covid19.webp');
+    background-image: url('covid19.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
